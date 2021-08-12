@@ -1,0 +1,63 @@
+﻿<h1>Depósito</h1>
+<p>Cadastro de depósito para envio de encomendas</p>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <p><b>Origem</b></p>
+    <div class="form-row">
+        <div class="form-group col">
+            <label for="enderecoOrigem">Endereço</label>
+            <input type="text" formControlName="enderecoOrigem" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.enderecoOrigem.errors }" />
+            <div *ngIf="submitted && f.enderecoOrigem.errors" class="invalid-feedback">
+                <div *ngIf="f.enderecoOrigem.errors.required">Endereço de origem é obrigatório</div>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label for="cepOrigem">CEP</label>
+            <input type="text" formControlName="cepOrigem" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cepOrigem.errors }" />
+            <div *ngIf="submitted && f.cepOrigem.errors" class="invalid-feedback">
+                <div *ngIf="f.cepOrigem.errors.required">CEP de origem é obrigatório</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col">
+            <label for="peso">Peso</label>
+            <input type="text" formControlName="peso" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.peso.errors }" />
+            <div *ngIf="submitted && f.peso.errors" class="invalid-feedback">
+                <div *ngIf="f.peso.errors.required">Peso é obrigatório</div>
+            </div>
+        </div>
+        <div class="form-group col">
+            <div class="form-group col">
+                <label for="tamanho">Tamanho</label>
+                <input type="text" formControlName="tamanho" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.tamanho.errors }" />
+                <div *ngIf="submitted && f.tamanho.errors" class="invalid-feedback">
+                    <div *ngIf="f.tamanho.errors.required">Tamanho é obrigatório</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <p><b>Destino</b></p>
+    <div class="form-row">
+        <div class="form-group col">
+            <label for="enderecoDestino">Endereço</label>
+            <input type="text" formControlName="enderecoDestino" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.enderecoDestino.errors }" />
+            <div *ngIf="submitted && f.enderecoDestino.errors" class="invalid-feedback">
+                <div *ngIf="f.enderecoDestino.errors.required">Endereço de destino é obrigatório</div>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label for="cepDestino">CEP</label>
+            <input type="text" formControlName="cepDestino" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cepDestino.errors }" />
+            <div *ngIf="submitted && f.cepDestino.errors" class="invalid-feedback">
+                <div *ngIf="f.cepDestino.errors.required">CEP de destino é obrigatório</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <button [disabled]="loading" class="btn btn-primary">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Submeter
+        </button>
+    </div>
+</form>

@@ -1,0 +1,55 @@
+﻿<div style="height: 100vh;">
+  <mat-toolbar color="primary" class="bg-dark" *ngIf="user">
+
+    <div fxShow="true" fxHide.lt-md="true" >
+      <a class="text-secondary" href="/" mat-button>Home</a>
+      <a class="text-secondary" href="/deposito" mat-button>Depósito</a>
+      <a class="text-secondary" href="/cotacao" mat-button>Cotação</a>
+      <a class="text-secondary" href="/rastreamento" mat-button>Rastreamento</a>
+      <a class="text-secondary" href="/historico" mat-button>Histórico</a>      
+      <a *ngIf="isAdmin" class="text-secondary" href="/users" mat-button>Usuários</a>
+      <a class="text-secondary" href="/users/edit/{{ (user != null) ? user.id : 0}}" mat-button>Conta</a>
+      <a class="text-secondary" (click)="logout()">Logout</a>
+    </div>
+
+    <div fxShow="true" fxHide.gt-sm="true">
+      <button type="button" (click)="sidenav.toggle()">Menu</button>
+    </div>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill class="example-container">
+    <mat-sidenav #sidenav fxLayout="column">
+      <div fxLayout="column" class="bg-dark">
+        <a (click)="sidenav.toggle()" href="#" mat-button>Close</a>
+        <a class="text-secondary" href="/" mat-button>Home</a>
+        <a class="text-secondary" href="/deposito" mat-button>Depósito</a>
+        <a class="text-secondary" href="/cotacao" mat-button>Cotação</a>
+        <a class="text-secondary" href="/rastreamento" mat-button>Rastreamento</a>
+        <a class="text-secondary" href="/historico" mat-button>Histórico</a>
+        <a *ngIf="isAdmin" class="text-secondary" href="/users" mat-button>Usuários</a>
+        <a class="text-secondary" href="/users/edit/{{ (user != null) ? user.id : 0}}" mat-button>Conta</a>
+        <a class="text-secondary" (click)="logout()" mat-button>Logout</a>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+
+      <!-- app -->
+      <div class="app-container" [ngClass]="{ 'bg-light': user }">
+        <alert></alert>
+        <router-outlet></router-outlet>
+      </div>
+
+      <!-- footer -->
+      <div class="text-center mt-4">
+        <p>
+            Boa Entrega - Módulo de Informações Cadastrais
+        </p>
+        <p>
+            (Prova de Conceito)
+        </p>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
+
