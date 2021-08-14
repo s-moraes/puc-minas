@@ -1,5 +1,5 @@
 ﻿<h1>Cotação</h1>
-<p>Calculador de preços e prazos</p>
+<p>Calculador de preços e prazos.</p>
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
     <p><b>Origem</b></p>
     <div class="form-row">
@@ -27,12 +27,10 @@
             </div>
         </div>
         <div class="form-group col">
-            <div class="form-group col">
-                <label for="tamanho">Tamanho</label>
-                <input type="text" formControlName="tamanho" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.tamanho.errors }" />
-                <div *ngIf="submitted && f.tamanho.errors" class="invalid-feedback">
-                    <div *ngIf="f.tamanho.errors.required">Tamanho é obrigatório</div>
-                </div>
+            <label for="tamanho">Tamanho</label>
+            <input type="text" formControlName="tamanho" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.tamanho.errors }" />
+            <div *ngIf="submitted && f.tamanho.errors" class="invalid-feedback">
+                <div *ngIf="f.tamanho.errors.required">Tamanho é obrigatório</div>
             </div>
         </div>
     </div>

@@ -18,13 +18,13 @@ namespace WebApi.Controllers
     [Authorize]
     [ApiController]
     [Route("[controller]")]
-    public class CadastroUsuario : ControllerBase
+    public class CadastroUsuarioController : ControllerBase
     {
         private IUserService _userService;
         private IMapper _mapper;
         private readonly AppSettings _appSettings;
 
-        public CadastroUsuario(
+        public CadastroUsuarioController (
             IUserService userService,
             IMapper mapper,
             IOptions<AppSettings> appSettings)
@@ -41,7 +41,7 @@ namespace WebApi.Controllers
             var user = _userService.Authenticate(model.Username, model.Password);
 
             if (user == null)
-                return BadRequest(new { message = "Username or password is incorrect" });
+                return BadRequest(new { message = "Username or password incorreto" });
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);

@@ -1,7 +1,23 @@
 ﻿<h1>Depósito</h1>
-<p>Cadastro de depósito para envio de encomendas</p>
+<p>Cadastro de depósito para envio de encomendas.</p>
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
     <p><b>Origem</b></p>
+    <div class="form-row">
+        <div class="form-group col">
+            <label for="remetente">Remetente</label>
+            <input type="text" formControlName="remetente" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.remetente.errors }" />
+            <div *ngIf="submitted && f.remetente.errors" class="invalid-feedback">
+                <div *ngIf="f.remetente.errors.required">Nome do remetente é obrigatório</div>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label for="email">E-mail</label>
+            <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                <div *ngIf="f.email.errors.required">E-mail é obrigatório</div>
+            </div>
+        </div>
+    </div>
     <div class="form-row">
         <div class="form-group col">
             <label for="enderecoOrigem">Endereço</label>
@@ -20,6 +36,22 @@
     </div>
     <div class="form-row">
         <div class="form-group col">
+            <label for="cidadeOrigem">Cidade</label>
+            <input type="text" formControlName="cidadeOrigem" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cidadeOrigem.errors }" />
+            <div *ngIf="submitted && f.cidadeOrigem.errors" class="invalid-feedback">
+                <div *ngIf="f.cidadeOrigem.errors.required">Cidade de origem é obrigatório</div>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label for="estadoOrigem">Estado</label>
+            <input type="text" formControlName="estadoOrigem" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.estadoOrigem.errors }" />
+            <div *ngIf="submitted && f.estadoOrigem.errors" class="invalid-feedback">
+                <div *ngIf="f.estadoOrigem.errors.required">Estado de origem é obrigatório</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col">
             <label for="peso">Peso</label>
             <input type="text" formControlName="peso" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.peso.errors }" />
             <div *ngIf="submitted && f.peso.errors" class="invalid-feedback">
@@ -27,17 +59,24 @@
             </div>
         </div>
         <div class="form-group col">
-            <div class="form-group col">
-                <label for="tamanho">Tamanho</label>
-                <input type="text" formControlName="tamanho" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.tamanho.errors }" />
-                <div *ngIf="submitted && f.tamanho.errors" class="invalid-feedback">
-                    <div *ngIf="f.tamanho.errors.required">Tamanho é obrigatório</div>
-                </div>
+            <label for="tamanho">Tamanho</label>
+            <input type="text" formControlName="tamanho" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.tamanho.errors }" />
+            <div *ngIf="submitted && f.tamanho.errors" class="invalid-feedback">
+                <div *ngIf="f.tamanho.errors.required">Tamanho é obrigatório</div>
             </div>
         </div>
     </div>
     <br/>
     <p><b>Destino</b></p>
+    <div class="form-row">
+        <div class="form-group col">
+            <label for="destinatario">Destinatário</label>
+            <input type="text" formControlName="destinatario" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.destinatario.errors }" />
+            <div *ngIf="submitted && f.destinatario.errors" class="invalid-feedback">
+                <div *ngIf="f.destinatario.errors.required">Nome do destinatário é obrigatório</div>
+            </div>
+        </div>
+    </div>
     <div class="form-row">
         <div class="form-group col">
             <label for="enderecoDestino">Endereço</label>
@@ -51,6 +90,22 @@
             <input type="text" formControlName="cepDestino" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cepDestino.errors }" />
             <div *ngIf="submitted && f.cepDestino.errors" class="invalid-feedback">
                 <div *ngIf="f.cepDestino.errors.required">CEP de destino é obrigatório</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col">
+            <label for="cidadeDestino">Cidade</label>
+            <input type="text" formControlName="cidadeDestino" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cidadeDestino.errors }" />
+            <div *ngIf="submitted && f.cidadeDestino.errors" class="invalid-feedback">
+                <div *ngIf="f.cidadeDestino.errors.required">Cidade de destino é obrigatório</div>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label for="estadoDestino">Estado</label>
+            <input type="text" formControlName="estadoDestino" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.estadoDestino.errors }" />
+            <div *ngIf="submitted && f.estadoDestino.errors" class="invalid-feedback">
+                <div *ngIf="f.estadoDestino.errors.required">Estado de destino é obrigatório</div>
             </div>
         </div>
     </div>

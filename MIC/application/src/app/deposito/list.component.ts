@@ -23,12 +23,19 @@ export class ListComponent implements OnInit {
         this.id = this.route.snapshot.params['id'];
         
         this.form = this.formBuilder.group({
+            remetente: ['', Validators.required],
+            email: ['', Validators.required],
             enderecoOrigem: ['', Validators.required],
             cepOrigem: ['', Validators.required],
+            cidadeOrigem: ['', Validators.required],
+            estadoOrigem: ['', Validators.required],
             peso: ['', Validators.required],
             tamanho: ['', Validators.required],
+            destinatario: ['', Validators.required],
             enderecoDestino: ['', Validators.required],
-            cepDestino: ['', Validators.required]
+            cepDestino: ['', Validators.required],
+            cidadeDestino: ['', Validators.required],
+            estadoDestino: ['', Validators.required]
         });
     }
 
