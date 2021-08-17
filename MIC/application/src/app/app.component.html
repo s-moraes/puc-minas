@@ -3,17 +3,13 @@
 
     <div fxShow="true" fxHide.lt-md="true" >
       <a class="text-secondary" href="/" mat-button>Home</a>
-      <a class="text-secondary" href="/deposito" mat-button>Depósito</a>
-      <a class="text-secondary" href="/cotacao" mat-button>Cotação</a>
-      <a class="text-secondary" href="/rastreamento" mat-button>Rastreamento</a>
-      <a class="text-secondary" href="/historico" mat-button>Histórico</a>      
       <a *ngIf="isAdmin" class="text-secondary" href="/users" mat-button>Usuários</a>
       <a class="text-secondary" href="/users/edit/{{ (user != null) ? user.id : 0}}" mat-button>Conta</a>
       <a class="text-secondary" (click)="logout()">Logout</a>
     </div>
 
     <div fxShow="true" fxHide.gt-sm="true">
-      <button type="button" (click)="sidenav.toggle()">Menu</button>
+      <button type="button" (click)="sidenav.toggle()" class="btn btn-sm btn-danger btn-delete-user">Menu</button>
     </div>
   </mat-toolbar>
 
@@ -22,10 +18,6 @@
       <div fxLayout="column" class="bg-dark">
         <a (click)="sidenav.toggle()" href="#" mat-button>Close</a>
         <a class="text-secondary" href="/" mat-button>Home</a>
-        <a class="text-secondary" href="/deposito" mat-button>Depósito</a>
-        <a class="text-secondary" href="/cotacao" mat-button>Cotação</a>
-        <a class="text-secondary" href="/rastreamento" mat-button>Rastreamento</a>
-        <a class="text-secondary" href="/historico" mat-button>Histórico</a>
         <a *ngIf="isAdmin" class="text-secondary" href="/users" mat-button>Usuários</a>
         <a class="text-secondary" href="/users/edit/{{ (user != null) ? user.id : 0}}" mat-button>Conta</a>
         <a class="text-secondary" (click)="logout()" mat-button>Logout</a>

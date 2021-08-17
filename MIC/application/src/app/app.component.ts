@@ -13,10 +13,9 @@ export class AppComponent {
 
         let user = this.accountService.userValue;
 
-        if (user != null && user.role !== undefined && user.role === "admin") {
+        if (user != null && user.role !== undefined && (user.role === "admin" || user.role === "funcionario")) {
             this.isAdmin = true;
         }
-        
     }
 
     logout() {

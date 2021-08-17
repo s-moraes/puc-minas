@@ -13,7 +13,13 @@ export class ListComponent implements OnInit {
         let user = this.accountService.userValue;
         this.accountService.getAll()
             .pipe(first())
-            .subscribe(users => this.users = users);
+            .subscribe(
+                users => {
+                    this.users = users;
+                },
+                error => {
+                    window.location.pathname='/home';
+                });
 
     }
 

@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
 a { cursor: pointer; }
 
 .app-container {
@@ -7,7 +6,50 @@ a { cursor: pointer; }
 }
 
 .btn-delete-user {
-    width: 40px;
+    width: 60px;
     text-align: center;
     box-sizing: content-box;
+}
+
+@media screen and (max-width: 1225px) and (min-width: 1045px) {
+    .priority-5{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1045px) and (min-width: 835px) {
+    .priority-5{
+        display:none;
+    }
+    .priority-4{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 565px) and (min-width: 300px) {
+    .priority-5{
+        display:none;
+    }
+    .priority-4{
+        display:none;
+    }
+    .priority-3{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .priority-5{
+        display:none;
+    }
+    .priority-4{
+        display:none;
+    }
+    .priority-3{
+        display:none;
+    }
+    .priority-2{
+        display:none;
+    }
+
 }
