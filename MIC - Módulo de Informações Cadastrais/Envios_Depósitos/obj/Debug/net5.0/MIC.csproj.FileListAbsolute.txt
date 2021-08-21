@@ -1,0 +1,124 @@
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/appsettings.Development.json
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/appsettings.json
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/MIC
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/MIC.deps.json
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/MIC.runtimeconfig.json
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/MIC.runtimeconfig.dev.json
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/MIC.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/ref/MIC.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/MIC.pdb
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Humanizer.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/System.Runtime.Caching.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/home/smoraes/puc/src/new/services/services/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.csproj.AssemblyReference.cache
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.GeneratedMSBuildEditorConfig.editorconfig
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.AssemblyInfoInputs.cache
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.AssemblyInfo.cs
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.csproj.CoreCompileInputs.cache
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.MvcApplicationPartsAssemblyInfo.cs
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.MvcApplicationPartsAssemblyInfo.cache
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/staticwebassets/MIC.StaticWebAssets.Manifest.cache
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/staticwebassets/MIC.StaticWebAssets.xml
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/scopedcss/bundle/MIC.styles.css
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.RazorTargetAssemblyInfo.cache
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.csproj.CopyComplete
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.dll
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/ref/MIC.dll
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.pdb
+/home/smoraes/puc/src/new/services/services/obj/Debug/net5.0/MIC.genruntimeconfig.cache
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/appsettings.Development.json
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/appsettings.json
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/MIC
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/MIC.deps.json
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/MIC.runtimeconfig.json
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/MIC.runtimeconfig.dev.json
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/MIC.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/ref/MIC.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/MIC.pdb
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Humanizer.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/System.Runtime.Caching.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.csproj.AssemblyReference.cache
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.GeneratedMSBuildEditorConfig.editorconfig
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.AssemblyInfoInputs.cache
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.AssemblyInfo.cs
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.csproj.CoreCompileInputs.cache
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.MvcApplicationPartsAssemblyInfo.cs
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.MvcApplicationPartsAssemblyInfo.cache
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/staticwebassets/MIC.StaticWebAssets.Manifest.cache
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/staticwebassets/MIC.StaticWebAssets.xml
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/scopedcss/bundle/MIC.styles.css
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.RazorTargetAssemblyInfo.cache
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.csproj.CopyComplete
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/ref/MIC.dll
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.pdb
+/home/smoraes/puc/src/puc-minas/MIC - Módulo de Informações Cadastrais/Depósitos/services/services/obj/Debug/net5.0/MIC.genruntimeconfig.cache
